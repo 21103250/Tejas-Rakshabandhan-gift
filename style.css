@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+
+body {
+
+    background: linear-gradient(45deg, #EA8D8D, #A890FE);
+    background-size: 200% 200%;
+    animation: gradientMove 2s linear infinite;
+
+
+}
+@keyframes gradientMove {
+    0% {
+        background-position: 0% 0%;
+    }
+    100% {
+        background-position: 100% 100%;
+    }
+}
+.container {
+    margin-top: -30px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+.container h1{
+    font-size: 70px;
+}
+#displayedImage{
+    height: 340px;
+    width: 240px;
+    border-radius: 15px;
+    border: 2px solid black;
+    border-color: black;
+}
+.tejas{
+    font-size: 20px;
+}
